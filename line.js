@@ -5,6 +5,7 @@ const smallestFirst = (a ,b) => {
   return [ a, b ];
 };
 
+// https://www.baeldung.com/cs/bresenhams-line-algorithm
 const bresenham = (x1, y1, x2, y2) => {
   const sx = x1 < x2 ? 1 : -1;
   const sy = y1 < y2 ? 1 : -1;
